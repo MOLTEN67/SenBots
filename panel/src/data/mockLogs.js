@@ -1,0 +1,51 @@
+export const mockLogs = [
+  {
+    id: 1,
+    timestamp: "10:02:11",
+    level: "system",
+    source: "panel",
+    message: "Start UI console stream (mock mode).",
+  },
+  {
+    id: 2,
+    timestamp: "10:02:14",
+    level: "info",
+    source: "mineflayer",
+    message: "Connecting to MOLTEN67.aternos.me (1.20.1)",
+  },
+  {
+    id: 3,
+    timestamp: "10:02:18",
+    level: "info",
+    source: "mineflayer",
+    message: "Handshake complete. Waiting for spawn...",
+  },
+  {
+    id: 4,
+    timestamp: "10:02:24",
+    level: "warn",
+    source: "network",
+    message: "Server list ping delayed (mock warning).",
+  },
+  {
+    id: 5,
+    timestamp: "10:02:31",
+    level: "info",
+    source: "session",
+    message: "Bot assigned username: SenBot",
+  },
+  {
+    id: 6,
+    timestamp: "10:02:40",
+    level: "error",
+    source: "auth",
+    message: "Auth disabled in mock mode.",
+  },
+  {
+    id: 7,
+    timestamp: "10:02:55",
+    level: "info",
+    source: "panel",
+    message: "Panel ready. Awaiting live logs.",
+  },
+];
